@@ -193,7 +193,7 @@ How to figure out where its worth to dig
 ### How deep to dig?
 - **Control provenience** (depth)
 - until the matrix changes (**natural stratum**)
-- until the provenience becomes too large to control reliably (**arbitrary stratum**
+- until the provenience becomes too large to control reliably (**arbitrary stratum**)
 
 ### What to do after finding it?
 - standardized forms
