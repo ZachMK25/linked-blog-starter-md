@@ -239,3 +239,4 @@ How to figure out where its worth to dig
 
 ### Caring for the past: ethics in archaeology
 - excavating responsibility = assuming custody of the artifact
+
