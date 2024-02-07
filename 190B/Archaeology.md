@@ -240,3 +240,137 @@ How to figure out where its worth to dig
 ### Caring for the past: ethics in archaeology
 - excavating responsibility = assuming custody of the artifact
 
+
+## Ethnoarchaeology
+
+### assumptions of anthropological archaeology
+1. modern human behavior
+2. suitability of comparison
+3. past knowable through the material record
+
+### the science of connecting the past and present
+- study of ethnographic or historical situations through direct observation or documentary evidence to extract info useful for understanding the relationship
+
+### just a lot of common sense
+- we use analogy in the field all the time
+	- identifying and classifying sites, features, artifacts
+
+### Garbology
+- study of trash
+- refuse: by-product of human activity and its disposal = universal
+- refuse is in the eye of the beholder
+- social norms of refuse disposal
+- refuse shapes behavior
+
+### behavioral patterns in trash
+
+### where to look: events connected to the present
+- occupy movement
+	- social conflict
+	- shine light on "hidden lives"
+	- community formation processes
+- burning man festival
+	- "instant" organization
+	- what remains after the party?
+
+### getting more specific: direct historical approach
+- searching for hypothetical analogues to archaeological situations in geographic areas characterized by long-term cultural continuity
+	- (can - but doesn't have to - include experimental archaeology)
+- alcohol/fermented drinks
+
+
+### pitfalls of ethnoarchaeology
+- life is complicated
+	- people make idiosyncratic decisions
+- assumptions that cultures as we see them are static
+- what about historical contingencies and cultural specificities? can we account for everything between then and now?
+
+### takeaways
+- arcaheology relies on assumptions about the past and present human behvaior
+- we can recreate the steps adn processes that underlie artifacts
+- some humans...
+
+
+## GenderLithics 2-5
+### Why
+- Stone tools
+	- how are they made?
+	- from what?
+	- for what or whom?
+- ppl wielding the tools
+	- why should they always be men?
+	- where are the women?
+	- what were they doing?
+
+### Challenging an old trope: Man, the hunter
+- sex (biological) and gender (social/cultural) matter to individual's experience
+
+**Gender Archaeology**
+- approach to study material culture as produced by **and** actively reproducing gender identities and relations in past societies
+	- burials
+	- bodies
+	- art and iconography
+	- ethnoarchaeology
+	- material analyses
+	- gender and feminist theories
+### stone tools are amazing bc:
+- durable
+- ubiquitous
+- conservative in their making
+- convey information about
+	- production
+		- economic networks and tech traditions and innovation
+	- function/use 
+		- activities (food, production, and defense)
+	- style
+		- identity of their makers and users
+
+### material
+- "ideal" material for lithics
+	- hard
+	- homogenous
+	- non-resilient
+- examples
+	- flint
+	- quartz
+	- obsidian
+	- chert
+
+### Gendered lithic typologies
+- women
+	- ground stone tools
+		- grinding
+		- mashing
+		- crushing
+		- processing
+	- near living space
+	- non-portable
+- men
+	- chipped stone tools
+	- anything related to hunting and fishing
+	- portable
+
+### step-by-step reduction sequence
+- strike off flake from core surface (cortex) => primary reduction
+- secondary reduction
+- sharpening edge (retouching)
+	- can make serrated edges
+	- (re)sharpens edge
+
+### Lithic production makes a lot of garbage
+- artifacts + debitage = **lithic assemblage**
+	- debitage = scraps/debris
+	- composition of assemblage => types of human activities
+
+### Lithic landscapes
+- quarry
+- workshop
+- kill site
+
+### Why only hunting?
+- stone tech remained popular for a very long time, especially in areas without metal ore/production
+- stone tools often part of composite tools to specialize or increase functionality
+- current thoughts on gendered divisions of labor in farming society probably as biased and unsupported as those for hunter-gatherers
+
+## Pottery & People
+- 
