@@ -373,4 +373,60 @@ How to figure out where its worth to dig
 - current thoughts on gendered divisions of labor in farming society probably as biased and unsupported as those for hunter-gatherers
 
 ## Pottery & People
-- 
+
+### Beginning of Ceramic Technology
+
+### Today: (Re-)Production of Identity
+- manufacture and craft learning
+- ceramic assemblages and feasting
+- decoration
+
+### Anatomy of a pot/sherd
+- sherd = piece of pottery (shard = piece of glass)
+- inclusions/temper
+- shape & decoration
+- clay
+- porosity
+- color
+
+### Ceramic style and the expression of identity
+- style is
+	- a means of communication
+	- a personal/communal choice of material expression of identity
+	- a marker of status (hierarchical) vs. group affinity (non-hierarchical)
+- pottery often associated with food: form & content
+- technology offers many ways to express identity
+
+
+### Materials Matter: How tot study ceramic composition
+- petrographic analysis
+	- microscopic study of clay and temper minerals
+- NAA/ICP-MS
+
+### (In)Visible Social Networks in Eastern North America
+- Appalachian region (AD 800-1600): different surface & different temper => different social networks
+- surface treatment is visible (signaling)
+
+### Bonding and Bridging: Making vs. Make-Belief
+
+### Making Pottery and Potters in the Southwest
+- ethnography & history
+	- puebloan craft is collaborative
+	- master craftspeople
+
+### Mesopotamian Politics of Consumption
+- Bevel-rimmed bowls
+	- ~ styrofoam of today
+	- ugly, unslipped, disposable
+	- mold-made
+	- standard size
+- Standardized production
+	- standardized unit of food/drink (beer, bread)
+	- fast manufacture
+	- easy replacement
+
+### Synthetic Tech
+- resource networks
+- learning processes
+- food consumption & distribution
+- marking and communicating social differences
