@@ -1,0 +1,1 @@
+Data about data; used for indexing where data is stored, access information, etc.

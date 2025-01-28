@@ -1,0 +1,1 @@
+Known facts that can be recorded and have an implicit meaning.

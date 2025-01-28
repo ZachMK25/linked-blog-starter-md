@@ -1,0 +1,1 @@
+Some part of the real world about which [[Data]] is stored in a [[Database]]. For example, student grades and transcripts at a university.
