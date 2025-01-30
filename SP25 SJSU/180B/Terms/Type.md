@@ -1,0 +1,1 @@
+- User Defined Types (UDTs) are supported for object-oriented applications. (See Ch.12) Uses the command: CREATE TYPE 

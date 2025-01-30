@@ -131,12 +131,15 @@ facilities.
 - Economies of scale:  
 	- Wasteful overlap of resources and personnel can be avoided by consolidating data and applications across departments.
 
-
 When not to use a DBMS
 - Main costs
 	- initial investment and hardware
 	- overhead
 
 - when a DBMS may be unnecessary
+	- too little data
+	- use a cache?
+
 - when a DBMS may be unfeasible
 	- Real-time requirements
+
