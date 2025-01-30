@@ -1,0 +1,1 @@
+Concept that application should not be exposed to the details of data and representation storage
