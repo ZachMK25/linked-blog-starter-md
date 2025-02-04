@@ -6,5 +6,4 @@ constraints on data tuples are observed automatically
 
 any integrity constraints as a part of the DDL specification are enforced
 
-ex: INSERT INTO Employee VALUES ("Richard", "K", "Marini", "523490845", "1962-10-1") etc...
-
+ex: INSERT INTO Employee VALUES ("Richard", "K", "Marini", "523490845", "1962-10-1") ... ;
