@@ -1,0 +1,11 @@
+- aka parallel systems, tightly-coupled systems
+- advantages include:
+	- increased throughput
+	- economy of scale
+	- increased reliability
+	
+- two types:
+	- asymmetric multiprocessing
+		- each processor is assigned a specific task
+	- symmetric multiprocessing
+		- each processor performs all tasks
