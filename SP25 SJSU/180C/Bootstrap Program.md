@@ -1,0 +1,4 @@
+- loaded at power-up or reboot
+	- typically stored in ROM or EPROM, generally known as firmware
+	- initializes all aspects of system
+	- loads operating system kernel and starts execution

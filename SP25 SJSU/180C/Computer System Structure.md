@@ -1,0 +1,13 @@
+4 components
+- Hardware
+	- CPU
+	- Memory
+	- I/O
+- OS
+	- controls and coordinates use of hardware among various applications and users
+- Application programs
+	- define ways in which the system resources are ysed to solve the computing problems of the users
+		- word processors, compilers, etc.
+- Users
+	- People, machines, other computers
+- 

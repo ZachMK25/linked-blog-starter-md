@@ -1,0 +1,1 @@
+- program that acts as an intermediary between hardware and software
