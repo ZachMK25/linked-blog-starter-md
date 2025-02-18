@@ -1,0 +1,3 @@
+INTERSECT and UNIONS on results of Queries Q1 and Q2
+
+ex: SELECT .... INTERSECT SELECT ....
