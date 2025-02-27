@@ -1,6 +1,6 @@
 Example of a Database
 - Part of a UNIVERSITY environment
-- Some [[mini-world]] entities:
+- Some [[Mini-World]] entities:
 	- STUDENTs
 	- COURSEs
 	- SECTIONs

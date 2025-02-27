@@ -3,7 +3,7 @@
 
 #### Self-describing nature of a database system: A DBMS catalog stores the description of a particular  
 database (e.g. data structures, types, and constraints) 
-- The description is called [[meta-data]]. 
+- The description is called [[Meta-data]]. 
 - This allows the DBMS software to work with different database applications. 
 
 #### Insulation between programs and data: 
@@ -20,7 +20,7 @@ database (e.g. data structures, types, and constraints)
 
 #### Sharing of data and multi-user transaction processing: 
 - Allowing a set of concurrent users to retrieve from and to update the database. 
-- **Concurrency control** within the DBMS guarantees that each [[transaction]] is correctly executed or aborted  
+- **Concurrency control** within the DBMS guarantees that each [[Transaction]] is correctly executed or aborted  
 - Recovery subsystem ensures each completed transaction has its effect permanently recorded in the database  
 - **OLTP (Online Transaction Processing)** is a major part of database applications. This allows hundreds of concurrent transactions to execute per second.
 

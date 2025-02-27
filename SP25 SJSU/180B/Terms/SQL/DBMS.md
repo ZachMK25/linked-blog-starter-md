@@ -10,9 +10,9 @@ Typical [[DBMS]] Functionality:
 	- Accessing the database through Web applications
 	- Processing and Sharing by a set of concurrent users and application programs – yet, keeping all data valid and consistent
 
-Applications interact with a [[database]] by generating:
-- **Queries** that access different parts of [[data]] and formulate the result of a request
-- **[[notes/SP25 SJSU/180B/Terms/Transaction]]** that may read some data and "update" certain values or generate new data and store that in the database
+Applications interact with a [[Database]] by generating:
+- **Queries** that access different parts of [[Data]] and formulate the result of a request
+- **[[Transaction]]** that may read some data and "update" certain values or generate new data and store that in the database
 
 [[DBMS]] may additionally provide:
 - Protection or security measures
