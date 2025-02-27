@@ -1,0 +1,1 @@
+A program in execution; process execution must progress in sequential fashion
