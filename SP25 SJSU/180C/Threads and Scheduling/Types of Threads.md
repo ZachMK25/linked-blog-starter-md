@@ -7,6 +7,12 @@
 	- 50% CPU Bound --> 4 Threads
 	- 25% CPU Bound --> 8 Threads
 	- ![[Drawing 2025-03-05 20.18.41.excalidraw]]
+	- Issue?
+		- Kernel knows that threads are IO Blocked, but User Process is responsible for creating the thread...
+		- Solution?
+			- SIGNALS
+			- Send signal to the process that indicates that the process should make a new thread
+			- SIGKCRT
 
 Ways of mapping
 - One-to-one
