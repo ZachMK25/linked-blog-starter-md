@@ -13,6 +13,9 @@
 			- SIGNALS
 			- Send signal to the process that indicates that the process should make a new thread
 			- SIGKCRT
+		- **Scheduler Activations**
+			- swap a blocked thread with a thread that can be run within the process via an upcall
+			- this new thread has kernel level privileges though, so permissions are a concern
 
 Ways of mapping
 - One-to-one
