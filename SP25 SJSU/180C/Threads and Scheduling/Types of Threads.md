@@ -1,6 +1,6 @@
-### Kernel threads
+### [[Kernel threads]]
 - OS is aware of them
-### User-level threads
+### [[User-level threads]]
 - Live within the process
 - OS doesn't know they exist
 
