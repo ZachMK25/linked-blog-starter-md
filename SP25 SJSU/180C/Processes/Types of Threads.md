@@ -62,8 +62,9 @@ When the main thread creates a new thread via fork(), the resulting stack is add
 ### POSIX Thread API (all start with pthread)
 - fork() or exec() --> **pthread_create()**, 
 	- takes a function for the thread to execute and an arg
-	- returns a **tid**
-- kill() --> 
+	- returns a **tid** (thread id)
+- kill() --> **pthread_cancel()**
+	- careful when cancelling thread that has resources
 - wait() --> **pthread_join(&r)**
 	- get back exit code
 - exit() --> **pthread_exit()**
