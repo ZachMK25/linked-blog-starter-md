@@ -47,3 +47,13 @@ What CANNOT be shared
 - STACK
 	- Function calls!
 	- otherwise we wouldn't be able to keep track of where we are in the program
+
+When the main thread creates a new thread via fork(), the resulting stack is added to the main threads heap
+- need to understand how much the main thread needs for its stack before allocating for the child thread's stack
+- gets tricky when trying to guess how much memory a thread will use and then can often lead to a collision... so...
+
+#### Place thread's stack in space between main thread's stack and heap
+- use `mmap()` 
+- make sure to call at different locations
+
+![[Drawing 2025-03-05 18.23.24.excalidraw]]
