@@ -57,3 +57,13 @@ When the main thread creates a new thread via fork(), the resulting stack is add
 - make sure to call at different locations
 
 ![[Drawing 2025-03-05 18.23.24.excalidraw]]
+
+
+### POSIX Thread API (all start with pthread)
+- fork() or exec() --> **pthread_create()**, 
+	- takes a function for the thread to execute and an arg
+	- returns a **tid**
+- kill() --> 
+- wait() --> **pthread_join(&r)**
+	- get back exit code
+- exit() --> **pthread_exit()**
