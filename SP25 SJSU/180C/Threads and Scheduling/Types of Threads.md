@@ -16,11 +16,14 @@
 		- **Scheduler Activations**
 			- swap a blocked thread with a thread that can be run within the process via an upcall
 			- this new thread has kernel level privileges though, so permissions are a concern
+				- thus not used that often
+				- Linux uses a lot of traps instead or requires the users themselves to implement the multiplexing
 
 Ways of mapping
 - One-to-one
 - Many-to-one
 - Many-to-many
+	- see diagram above: many user threads (4) to many kernel threads (2)
 
 Thread Programming API
 - fork() or exec() --> make a thread
