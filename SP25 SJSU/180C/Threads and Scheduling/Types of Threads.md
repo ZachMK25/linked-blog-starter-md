@@ -1,11 +1,12 @@
-### [[Kernel threads]]
-- OS is aware of them
-### [[User-level threads]]
-- Live within the process
-- OS doesn't know they exist
+### ![[Kernel Level Threads]]
+### ![[User Level Threads]]
 
-Optimal way of combining the benefits of the two?
-- scheduler activations
+## How to balance benefits of [[User Level Threads]] and [[Kernel Level Threads]]?
+- alternate
+- Can compute how many kernel threads are needed based on how CPU bound it is
+	- 50% CPU Bound --> 4 Threads
+	- 25% CPU Bound --> 8 Threads
+	- ![[Drawing 2025-03-05 20.18.41.excalidraw]]
 
 Ways of mapping
 - One-to-one
@@ -68,3 +69,5 @@ When the main thread creates a new thread via fork(), the resulting stack is add
 - wait() --> **pthread_join(&r)**
 	- get back exit code
 - exit() --> **pthread_exit()**
+
+

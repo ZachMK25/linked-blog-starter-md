@@ -5,3 +5,5 @@
 5. dequeue (ready queue)
 6. fill register from pcb
 7. set state to running
+
+![[CPU Process Switching]]
