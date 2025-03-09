@@ -25,12 +25,6 @@ Ways of mapping
 - Many-to-many
 	- see diagram above: many user threads (4) to many kernel threads (2)
 
-Thread Programming API
-- fork() or exec() --> make a thread
-- exit() to exit a process --> 
-- wait() --> 
-- kill() --> 
-
 ### Memory Layout for Threads
 
 0xFFFF  KERNEL at TOP
