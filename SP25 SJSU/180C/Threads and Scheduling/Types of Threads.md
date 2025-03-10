@@ -6,7 +6,7 @@
 - Can compute how many kernel threads are needed based on how CPU bound it is
 	- 50% CPU Bound --> 4 Threads
 	- 25% CPU Bound --> 8 Threads
-	- ![[Drawing 2025-03-05 20.18.41.excalidraw]]
+	- ![[scheduler activation.excalidraw]]
 	- Issue?
 		- Kernel knows that threads are IO Blocked, but User Process is responsible for creating the thread...
 		- Solution?
@@ -39,7 +39,7 @@ DATA Section
 0x0000 TEXT section from 0 and grows up
 - size known at COMPILE TIME
 
-![[Drawing 2025-03-05 18.23.22.excalidraw]]
+![[memory.excalidraw]]
 
 
 What can be shared between threads?
@@ -63,7 +63,7 @@ When the main thread creates a new thread via fork(), the resulting stack is add
 - use `mmap()` 
 - make sure to call at different locations
 
-![[Drawing 2025-03-05 18.23.24.excalidraw]]
+![[memory with threads.excalidraw]]
 
 
 ### POSIX Thread API (all start with pthread)

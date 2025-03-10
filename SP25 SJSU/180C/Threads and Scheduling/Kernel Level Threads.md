@@ -1,4 +1,4 @@
-![[Drawing 2025-03-05 19.38.48.excalidraw]]
+![[tcb.excalidraw]]
 
 Scheduler prioritizes threads within the current process over switching to a new process
 - saves time bc don't need to flush cache when switching context to the other thread
