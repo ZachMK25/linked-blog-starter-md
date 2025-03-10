@@ -11,4 +11,3 @@ User Threads vs Kernel Threads
 - User Threads do not need to go to kernel on a context switch --> less costly
 - Kernel Threads get administered by kernel --> more closely tied to hardware scheduling
 	- can leverage multicore
-- 
