@@ -26,6 +26,10 @@
 	1. pthread_join(): synchronize between threads at a given point, blocking
 	2. pthread_create(): spawns a new thread similar to fork()
 	3. pthread_cancel(): kills a thread
-20. *not sure if this is right* A system call is a function called by a process running in user space that requests the kernel to perform some privileged or restricted action. These actions generally have to deal with accessing hardware or the kernel. It is usually implemented via a trap so that the process can continue where it left off afterwards
+20. *not sure if this is right* A system call is a function called by a process running in user space that requests the kernel to perform some privileged or restricted action. These actions generally have to deal with accessing hardware or the kernel. It is usually implemented via a **trap** so that the kernel gets interrupted and the process can continue where it left off afterwards
 21. n/a synchronization
-22. A context switch occurs, switching the register values, stack pointer, and program counter from thread 1 to thread 2. Notably, a memory flush does not occur because the context switch happens within the same process. The values are stored in the respective TCBs that the process manages as part of its mini-scheduler
+22. 
+	1. When a user thread in the process executes a blocking system call, the entire process is blocked. This is because the operating system is not aware of the user threads and only sees the single process that is now being blocked.
+	2. A context switch occurs **within the process scheduler**, switching the register values, stack pointer, and program counter from thread 1 to thread 2. Notably, a memory flush does not occur because the context switch happens within the same process. The values are stored in the respective TCBs that the process manages as part of its mini-scheduler. From the perspective of the kernel/kernel thread, nothing changes
+23. ![[Drawing 2025-03-12 13.49.09.excalidraw]]
+24. 
