@@ -1,0 +1,11 @@
+- Generalization of B+ trees to multi-dimensional data
+- height balanced data structure
+- search key for an R-tree is bounding box or rectangle
+- Leaf nodes contain pointers to data objects
+- Insertions and  Deletions are dynamic and can be done in any order
+- spatial database contains a list of tuples
+- each tuple has a unique identifier
+- Search
+	- need to compute a bounding box (BB)
+	- x-low, y-low, x-high, y-high as coordinates/index
+

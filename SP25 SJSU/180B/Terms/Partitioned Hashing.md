@@ -1,0 +1,5 @@
+- Fixed bits for each dimension
+- Example: Gold jewelry with: 
+	- first bit: age % 2
+	- bits 2 and 3: salary mod 4
+- works well for partial match, bad for range and NN queries
