@@ -26,3 +26,5 @@ Dispatcher Latency:
 | P1          | 24             | 0                | 17                   |
 | P2          | 3              | 24               |                      |
 | P3          | 3              | 24+3=27          |                      |
+### Example: SJF (Shortest Job First) Scheduling
+- can lead to a starvation for long jobs, as they always get "cut in line" by the shorter jobs
