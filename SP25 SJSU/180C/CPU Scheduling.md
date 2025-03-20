@@ -59,7 +59,9 @@ process is preempted and added to the end of the ready queue.
 - 
 ### Multilevel Feedback Queue
 - 3 Queues
-	- Q0 - RR with 
+	- Q0 - RR with q=8
+	- Q1 - RR with q=16
+	- Q2 - FCFS
 		((SEE SLIDES))
 
 #### Pthread Scheduling
@@ -83,4 +85,4 @@ process is preempted and added to the end of the ready queue.
 
 ### Real-Time CPU Scheduling
 - **Soft real-time systems** - no guarantee as to when critical real-time process will be scheduled
-- **Hard real-time systems** - task must be serviced
+- **Hard real-time systems** - task must be serviced by its deadline
