@@ -95,6 +95,20 @@ Relation = Table
 
 ![[Screenshot 2025-03-25 at 10.01.24 AM.png]]
 
+### Different Types of Joins
+- Default: INNER
+- OUTER (LEFT, RIGHT, FULL)
+
+![[Screenshot 2025-03-25 at 10.05.48 AM.png]]
+
+### Aggregate Functions
+- COUNT, SUM, MAX, MIN, AVG
+- **GROUP BY**
+- HAVING kinda like WHERE but applied per group
+
+## USE THIS ON SHEET?
+![[Screenshot 2025-03-25 at 10.08.46 AM.png]]
+
 # What to put on note sheet (DOUBLE SIDED)
 - IO Cost for each algorithm
 	- maybe the structure of each alg as well
