@@ -109,6 +109,28 @@ Relation = Table
 ## USE THIS ON SHEET?
 ![[Screenshot 2025-03-25 at 10.08.46 AM.png]]
 
+## Inside the DBMS
+
+![[Screenshot 2025-03-25 at 10.09.57 AM.png]]
+
+## B+ Tree
+
+## Hashing
+- static hashing
+- extendible hashing
+
+### Multidimensional Indexing
+- R-trees
+- Quad-trees
+- KD-trees
+- Nearest Neighbors search
+- ### Comfortable drawing trees for exam!
+	- SLIDE EXAMPLES
+
+## IO Cost
+
+
+
 # What to put on note sheet (DOUBLE SIDED)
 - IO Cost for each algorithm
 	- maybe the structure of each alg as well
