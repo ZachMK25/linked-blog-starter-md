@@ -45,8 +45,11 @@ Relation = Table
 #### Relational Integrity Constraints
 - **conditions** that must hold on **all** valid relation states
 	- **Key** constraints, ex: unique
+		- primary key cannot be duplicated
 	- **Entity integrity** constraints
+		- a primary key val can't be null
 	- **Referential integrity**
+		- a referential key must have a value that's already present
 
 #### SQL Datatypes
 - Numeric
@@ -67,7 +70,32 @@ Relation = Table
 - INTERVAL
 - User-defined types
 	- ex: CREATE DOMAIN SSN_TYPE AS CHAR(9);
-### What to put on note sheet (DOUBLE SIDED)
+
+#### Attribute Constraints
+- Default values
+- Check clause
+	- Dnumber INT NOT NULL CHECK (Dnumber > 0 AND Dnumber < 21)
+- **Primary Key** clause
+	- specifies one or more attributes taht make up the primary key relation
+	- Dnumber INT PRIMARY KEY
+- **Unique** clause
+- **Foreign Key** clause
+	- attaches table to another table
+		- options include SET NULL, CASCADE, and SET DEFAULT
+		- Action taken by the DBMS for SET NULL and SET DEFAULT is the same for both ON DELETE and ON UPDATE
+
+# Basic SQL
+- SELECT (attribute list)
+- FROM (table)
+- \[WHERE (condition)\]
+- \[GROUP BY (attribute list)\]
+#### INSERT, DELETE, UPDATE
+
+### Nested Queries
+
+![[Screenshot 2025-03-25 at 10.01.24 AM.png]]
+
+# What to put on note sheet (DOUBLE SIDED)
 - IO Cost for each algorithm
 	- maybe the structure of each alg as well
 - review in-class activities for SQL
