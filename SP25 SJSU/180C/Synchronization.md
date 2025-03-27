@@ -161,3 +161,4 @@ signal (Struct Sem * s){
 }
 ```
 
+![[Buffer with Semaphore.excalidraw]]
