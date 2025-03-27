@@ -3,7 +3,6 @@
 - 70 minutes
 - Calculator
 - MC, short answer, SQL queries, and problem solving
-
 ## Typical DBMS Functionality
 - Define a particular database in terms of its data types, structures, and constraints
 - Construct or load the initial database contents on a secondary storage medium
@@ -131,9 +130,11 @@ Relation = Table
 
 
 
-# What to put on note sheet (DOUBLE SIDED)
+# TO ADD TO SHEET
 - IO Cost for each algorithm
 	- maybe the structure of each alg as well
 - review in-class activities for SQL
 - Homework as example of problem solving questions
-- 
+- ### TREES
+- #### DISK STUFF FROM HW2
+- #### PAGE FANOUT THING EXAMPLE
