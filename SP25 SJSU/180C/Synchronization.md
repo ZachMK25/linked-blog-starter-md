@@ -61,10 +61,49 @@ can these exist at the same time?
 
 cancel out terms --> reduces to **turn = 0 for 0 to run, or turn = 1 for 1 to run**
 - MUTUAL EXLCUSION!
-
+#### Test_and_set, Atomic booleans
 ```
 boolean test_and_set(boolean * l)
 - (hardware instruction executed by CPU atomically)
 - can be interrupted by Context Switch, but CPU will just restart atomic instruction from the beginning to ensure atomicity
 ```
+
+```
+bool l = false;
+
+while (test_and_set(&l)){};
+
+Crit_Section()
+
+l = false;
+```
+
+
+### Mutex Locks
+```Lock l;
+
+l.lock();
+Crit_Section();
+l.unlock();
+
+internals of lock behave something like test_and_set example above
+```
+
+Processes just kinda waste time checking the lock over and over...
+- Solution? **Semphores**
+
+### Semaphores
+unlike locks, they have multiple states
+maintain a *count*; initialized with a *value*
+`Sem s=n`
+
+`wait(s)`
+- every time you wait, decrement the counter
+- only stop on wait when it becomes 0
+
+`signal(s)`
+- increments the count to allow another process in
+
+**binary semaphores** can only have a max count of 1
+**counting semaphores** can have count > 1
 
