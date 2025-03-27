@@ -90,7 +90,7 @@ internals of lock behave something like test_and_set example above
 ```
 
 Processes just kinda waste time checking the lock over and over...
-- Solution? **Semphores**
+- Solution? **Semaphores**
 
 ### Semaphores
 unlike locks, they have multiple states
