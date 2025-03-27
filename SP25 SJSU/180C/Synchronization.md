@@ -4,10 +4,9 @@
 - concurrent access to shared data may result in data inconsistency
 - maintaining data consistency requires mechanisms to ensure the orderly execution of cooperation processes
 
-
 ### Race Conditions
 
-### Critical Section Problem
+## Critical Section Problem
 - guard a specific section of code that has shared data/something that would cause a race condition
 - **Mutual Exclusion**: if a given process **P**1 is executing its critical section, then no other processes can be executing in their other sections
 - **Progress**: If no process is executing in its critical section and there exist some processes that wish to enter their critical section, then the selection of the processes that will enter the critical section next cannot be postponed indefinitely
