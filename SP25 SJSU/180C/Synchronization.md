@@ -97,11 +97,20 @@ unlike locks, they have multiple states
 maintain a *count*; initialized with a *value*
 `Sem s=n`
 
+#### Spinning semaphore example
+
 ```
 wait(s){
 
-while (s==0){};
+while (s==0){
+l.unlock();
+	yield(); //i dont have anything to do rn, can you (scheduler) run something else from the ready queue, (in hopes that signal is called to get me unstuck)
+
+l.lock();
+};
+
 s--;
+l.unlock();
 
 }
 ```
@@ -113,7 +122,9 @@ s--;
 ```
 signal(s) {
 
+l.lock();
 s++;
+l.unlock();
 
 }
 ```
@@ -121,4 +132,32 @@ s++;
 
 **binary semaphores** can only have a max count of 1
 **counting semaphores** can have count > 1
+
+### Blocking Semaphore
+```
+struct Sem {
+	int count;
+	Lock lock;
+	Queue q;
+}
+
+wait (Struct Sem * s){
+	s -> lock.lock();
+	if (s-> count <= 0){
+		// Queue this process
+		s->q.push(current);
+	}
+
+}
+
+signal (Struct Sem * s){
+	s -> lock.lock();
+	if (!s->q.empty()){
+		PCB p = q.pop();
+		ReadyQ.push(p);
+	}
+	s->count++;
+	s->lock.unlock();
+}
+```
 
