@@ -97,11 +97,26 @@ unlike locks, they have multiple states
 maintain a *count*; initialized with a *value*
 `Sem s=n`
 
-`wait(s)`
+```
+wait(s){
+
+while (s==0){};
+s--;
+
+}
+```
+
+
 - every time you wait, decrement the counter
 - only stop on wait when it becomes 0
 
-`signal(s)`
+```
+signal(s) {
+
+s++;
+
+}
+```
 - increments the count to allow another process in
 
 **binary semaphores** can only have a max count of 1
