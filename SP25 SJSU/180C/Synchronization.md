@@ -65,5 +65,6 @@ cancel out terms --> reduces to **turn = 0 for 0 to run, or turn = 1 for 1 to ru
 ```
 boolean test_and_set(boolean * l)
 - (hardware instruction executed by CPU atomically)
+- can be interrupted by Context Switch, but CPU will just restart atomic instruction from the beginning to ensure atomicity
 ```
 
