@@ -48,7 +48,7 @@ process is preempted and added to the end of the ready queue.
 - Problem = **Starvation** - low priority process may never execute
 - Solution = **Aging** - as time progresses, increase the priority of the process
 
-### Quantum
+#### Time-Quantum
 - Setting a window for how long each process runs uninterrupted before reevaluating scheduling based on criteria
 - Lower quantum = More context switching, but also more accurate placement of timing
 
