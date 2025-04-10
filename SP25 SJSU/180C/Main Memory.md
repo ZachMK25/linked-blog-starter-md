@@ -137,5 +137,9 @@ Shared Pages
 
 Two-level paging example
 - think B+ tree
+	- inverse tradeoff though
+	- save mem space, cost is increased lookup due to multiple page lookups
+		- TLB hits only guarantee the first level, and might miss on the second level --> need to access
+		- still cached though
 - used to save memory on the size of the page table
 - EXAM QUESTION
