@@ -106,3 +106,36 @@ Dynamic Linking
 - **Logical memory** referred to as a **page**
 
 ![[Screenshot 2025-04-09 at 8.04.28 PM.png]]
+
+_tradeoff of page table size and page size_
+- Mem Size = Page size \* table size
+
+**Page-table base register** (PTBR) points to the page table  
+**Page-table length register** (PTLR) indicates size of the page
+Hardware traps generated to prevent accessing pages allocated to other processes
+
+2 Accesses to Memory for each lookup
+- one to page table to figure out where to look
+- one to actual frame
+
+**Table Lookaside Buffer (TLB)**
+- Hardware cache; *Very fast*
+- caches that maps page number to frame number
+- first lookup takes 2 lookups as usual, but then can access cache after
+- TLB Hit = Cache Hit = found page number and can immediately go to 
+- As limit of *n* accesses --> infinity, the affect becomes stronger (closer to cache access time)
+	- 1 initial cache miss then 99999 cache hits
+	- EXAM QUESTION
+
+Valid/Invalid Bit
+- OS checks to see if access to a specific page is valid
+	- ex: proc doesnt own page: --> page fault and kill proc
+	- ex: page invalid (not loaded in phys mem) --> load page and restarts proc
+
+Shared Pages
+- multiple procs pointing to same frame
+
+Two-level paging example
+- think B+ tree
+- used to save memory on the size of the page table
+- EXAM QUESTION
