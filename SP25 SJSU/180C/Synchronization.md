@@ -162,3 +162,11 @@ signal (Struct Sem * s){
 ```
 
 ![[Buffer with Semaphore.excalidraw]]
+
+
+### Deadlock
+- Proc A holds Sem1, Proc B holds Sem2
+	- if need Sem1 and Sem2 to run, it can't bc each proc is holding the one the other needs
+	- soln: acquire semaphores in the same order for each proc
+
+- Natively handled by Java's `synchronized` keyword
