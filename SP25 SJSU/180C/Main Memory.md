@@ -98,4 +98,11 @@ Dynamic Linking
 **Segment-table length register (STLR)** indicates number of segments used by a program
 
 ![[Screenshot 2025-04-09 at 7.59.38 PM.png]]
+
+- NOT SHOWN: validation bit in segment table to indicate whether the segment is currently in memory
 ## Paging
+
+- **Physical memory** referred to as a **frame**
+- **Logical memory** referred to as a **page**
+
+![[Screenshot 2025-04-09 at 8.04.28 PM.png]]
