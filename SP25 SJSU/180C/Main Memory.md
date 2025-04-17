@@ -15,7 +15,7 @@ Concepts:
 
 - Contiguous Mem Alloc
 	- Processes needed to be allocated in a single chunk
-	- If no chunk of size XB exists (even if the total free space exists), then the process can't run
+	- If no **chunk** of size XB exists (even if the total free space exists), then the process can't run
 ![[Screenshot 2025-04-09 at 6.47.14 PM.png]]
 - Memory Defragmentation
 	- moving chunks of memory to create a single, large unused block
