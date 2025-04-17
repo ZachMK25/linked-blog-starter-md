@@ -65,3 +65,10 @@ Num. Page faults determines the "hungriness" of the process for frames
 - more page faults --> allocate more frames to process
 - vv
 
+## Thrashing
+- Steals frames from process A to process B, but A no longer as its working set --> cycle of shuffling frames
+- Happens when sum of all **working sets** is larger than physical memory
+	- very high page fault rate
+	- 
+- NOT the same as swap usage space
+- 
