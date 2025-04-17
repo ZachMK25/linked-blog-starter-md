@@ -30,3 +30,38 @@ Don't want to deal with switching pages later and can tolerate a bit of a slower
 When forking, mark memory as Read-Only
 - when written to, the memory needs to be allocated a new frame that is writable such that the frame is writable now
 
+
+## When there is no free frame?
+- Linux: Auto-memory killer
+	- kills processes taking up a lot of memory
+	- think of when a computer freezes, essentially an auto-version of process manager / activity monitor / top to reclaim as much memory as possible
+
+
+# Page replacement
+
+### bits on a page
+- valid
+- dirty
+- accessed
+	- when a process reads or writes to a page --> 1
+	- after a while, set back to 0
+	- done in hardware (MMU) as software would be really inefficient
+
+![[Drawing 2025-04-16 19.35.40.excalidraw]]
+
+Optimal to access 0 first, since a) we don't need write to disk and b) **locality of reference** dictates that it is unlikely to be used next since it hasn't been accessed in a while
+
+best order:
+	1. 0
+	2. 1
+	3. 2
+	4. 3
+## Page Replacement Algo
+- walkthrough in slides
+
+## Memory Allocation
+
+Num. Page faults determines the "hungriness" of the process for frames
+- more page faults --> allocate more frames to process
+- vv
+
