@@ -71,4 +71,6 @@ Num. Page faults determines the "hungriness" of the process for frames
 	- very high page fault rate
 	- 
 - NOT the same as swap usage space
-- 
+
+
+**Global and local allocation**
