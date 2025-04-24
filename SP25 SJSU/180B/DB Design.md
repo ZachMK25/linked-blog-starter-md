@@ -14,3 +14,10 @@ Super Key: Set of attributes that determines all other attributes (all others ar
 - can have multiple
 - usually interested in the minimal set
 
+
+Boyce-Codd Normal Form (BCNF) is a simple condition for removing anomalies from relations
+
+# QUIZ 4/24 ON ABOVE AND PREVIOUS DB DESIGN
+
+
+
