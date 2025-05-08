@@ -10,3 +10,7 @@ Proposed Solution: use lists to link blocks of a file together
 - hurts arbitrary access time
 - good for stuff like logs
 
+1024 byte block --> 1020 byte block for file + 4 byte pointer to use for FS
+- need to read full block to get pointer
+
+Next Step: Move pointers from inside data structure to somewhere else
