@@ -1,10 +1,12 @@
 
 Paper Presentation
-- pick data mining project from Google Scholar
+- pick data mining project from Google Scholar (Make sure its from a good journal or conference, ideally last 2-3 years)
 - 2-3 people
 - summary of paper
 	- how paper/algo can be improved
 - ~13 slides
+	- PICTURES, DIAGRAMS, GRAPHS, ETC.
+	- NOT JUST TEXT
 - 30-40 minute presentation
 - upload 1 page review of the paper
 	- INDIVIDUAL
@@ -12,6 +14,7 @@ Paper Presentation
 	- what do YOU think the key ideas are, what is the main contribution, what are the limitations
 - groups by WEEK OF 9/7!
 	- keep groups for final proj
+- OVERLEAF OR LATEX
 
 Final Proj
 - OPEN SOURCE DATASETS for project
