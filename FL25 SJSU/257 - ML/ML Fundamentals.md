@@ -20,3 +20,44 @@ ML:
 	- trunk - 0.3
 	- branches - 0.15
 	- texture - 0.1
+
+### ML Challenges
+- Lack of training data
+	- in many cases, don't have access to millions of real examples
+- Poor quality of data
+- Data overfitting
+	- model too specific training data provided
+- Data underfitting
+	- model too simple or misses parameters that should've been included
+- Irrelevant features
+- Data security
+
+### Data
+- splitting
+	- usually 70-20-10 division, but other options can work
+	- train
+	- test
+	- validation
+		- used later to make sure the model is still working
+
+## Bias
+- the difference between predicted values from your ML model and the correct/expected values
+	- high bias - large error with both training/testing datasets
+		- the model is oversimplified - **underfitting**
+
+## Variance
+- the variability of the ML model given the provided data points
+	- High variance - almost no error with both training/testing datasets
+		- the model is too complex - **overfitting**
+
+$$
+Total\ Error = Bias^2 + Variance + Irreducible\ Error
+$$
+
+
+| Fitting | Training error | error type | test   |
+| ------- | -------------- | ---------- | ------ |
+| under   | high           | high bias  | either |
+|         | low            | low bias   | down   |
+| over    | low            | high var   | high   |
+|         | low            | low var    | low    |
