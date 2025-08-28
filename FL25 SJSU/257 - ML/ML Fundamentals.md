@@ -55,9 +55,20 @@ Total\ Error = Bias^2 + Variance + Irreducible\ Error
 $$
 
 
-| Fitting | Training error | error type | test   |
-| ------- | -------------- | ---------- | ------ |
-| under   | high           | high bias  | either |
-|         | low            | low bias   | down   |
-| over    | low            | high var   | high   |
-|         | low            | low var    | low    |
+| Fitting | Training error | error type | test     |
+| ------- | -------------- | ---------- | -------- |
+| under   | high\*         | high bias  | either\* |
+|         | low            | low bias   | down     |
+| over    | low            | high var   | high     |
+|         | low            | low var    | low      |
+\* if you have low testing, compare to how it fits the training data
+
+### Cost (or Loss) Function
+- measures the performance of a ML model for given data
+- quantifies **the error between predicted and expected values**
+- can be formed in many different ways
+- ex:
+$$
+J(θ_0, θ_1) = 1/2m\ Σ_i^m (h0(x_i) - y_i)^2
+$$
+
