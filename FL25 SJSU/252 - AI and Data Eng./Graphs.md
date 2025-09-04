@@ -74,7 +74,27 @@ represents graph, but doesn't tell geometry information
 
 HOMEWORK: PROVE THAT LAPLACIAN MATRIX IS POSITIVE SEMIDEFINITE
 
+| x1  |     |
+| --- | --- |
+| x2  |     |
+| x3  |     |
+Show that:
+$$
+x^T A x >= 0
+$$
+for all x, where A is the laplacian matrix
 
+example using laplacian matrix from above:
+
+$$
+x^T A x = (2x_1^2 - x_1x_2 - x_1x_3) + (-x_1x_2 + 2x_2^2 -x_2x_3) + (-x_1x_3 -x_2x_3 + 2x_3^2)
+$$
+
+$$
+= 2x_1^2 + 2x_2^2 + 2x_3^2 - 2x_1x_2 - 2x_1x_3 - 2x_2x_3
+$$
+
+the value would be dominated by the x^2 terms and thus can never be negative?
 
 heuristic: estimation
 - estimate traveling distance from node to destination
