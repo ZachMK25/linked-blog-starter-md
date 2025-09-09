@@ -17,9 +17,11 @@ When to use what?
 - no right or wrong answer
 - just try to end up with a reasonable number of features in the end based on the input data
 
-
-# Model Evaluation
-## Class Imbalance
+## Standardization
+remove outliers
+same order of magnitude across data
+##  Model Evaluation
+### Class Imbalance
 dataset has many observations of one case (ex: no disease) but not the other
 model may perform better classifying one class vs the other
 recall sensitivity and specificity can be used to evaluate a model's performance on these
