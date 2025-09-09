@@ -4,3 +4,4 @@
 4. Call/Instantiate model (ex: `regr = linear_model.LinearRegression()`)
 5. Fit
 6. Predict
+7. Evaluate
