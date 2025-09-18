@@ -12,7 +12,7 @@ Give the algorithm the ability to identify the patterns within the data
 - Scalability: Unsupervised learning can be computationally expensive, particularly for   large datasets or complex algorithms, which can limit its scalability.  
 
 
-Clustering
+## Clustering
 - Overlapping
 - Agglomerative
 - Divisive

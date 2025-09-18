@@ -71,3 +71,8 @@ O(|V| * (n-1) * Δ)
 $$
 where Δ = maximum degree of vertex
 - max num of neighbors per node
+
+
+## Stochastic Cases
+
+### Markov Decision Process
