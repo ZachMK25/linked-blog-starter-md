@@ -37,20 +37,37 @@ $$
 $$
 x_j\ N(x_i)
 $$
-Cost of going from Xi to End Node
+Cost of coming from XA to Xi
+
+`k` = number of edges allowed to use to get from XA to Xi
 
 for `n` nodes, max of `|E| = n-1` --> table size of `n x (n-1)`
 - theoretical max of `n-1`, but in many cases its fewer (ie shortest path does not include all nodes)
 
 Example
 
+**Row = number of steps allowed**
+- ex: A-->D is checked in 1st iteration
+- A --> B --> D is checked in 2nd iteration
+- etc
 
-|     | 1st          | 2nd | 3rd | 4th | 5th | 6th... | n-1th |
-| --- | ------------ | --- | --- | --- | --- | ------ | ----- |
-| A   | V1(XA) = inf |     |     |     |     |        |       |
-| B   | V1(XB) =     |     |     |     |     |        |       |
-| C   | V1(XC)       |     |     |     |     |        |       |
-| D   | ...          |     |     |     |     |        |       |
-| E   |              |     |     |     |     |        |       |
-| F   |              |     |     |     |     |        |       |
-| G   |              |     |     |     |     |        |       |
+|     | 0th | 1st         | 2nd              | 3rd | 4th | 5th | 6th... | n-1th |
+| --- | --- | ----------- | ---------------- | --- | --- | --- | ------ | ----- |
+| A   | 0   | V1(XA) = 0  | 0                | 0   |     |     |        |       |
+| B   | inf | V1(XB) = 10 | 10               |     |     |     |        |       |
+| C   | inf | V1(XC) = 20 | 20               |     |     |     |        |       |
+| D   | inf | ... = 27    | min(23, 27) = 23 |     |     |     |        |       |
+| E   | inf | inf         | 22               |     |     |     |        |       |
+| F   | inf | inf         | inf              |     |     |     |        |       |
+| G   | inf | inf         | inf              |     |     |     |        |       |
+
+For all incoming edges, need to check to find the shortest path from the starting node
+
+
+Computational Cost
+
+$$
+O(|V| * (n-1) * Δ)
+$$
+where Δ = maximum degree of vertex
+- max num of neighbors per node
