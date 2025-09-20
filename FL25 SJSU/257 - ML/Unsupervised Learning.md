@@ -20,18 +20,31 @@ Give the algorithm the ability to identify the patterns within the data
 - Density-based
 	- similarly concentrated data points and separates from sparsely populated areas
 
-
 ## DBSCAN
 
 Chaining Rule:
 continue to chain as long as all data points are all in the radius
 - based on epsilon (radius) and MinPts (number of neighbors required to chain)
 
-### Advantages:  
+#### Advantages:  
 - Finds arbitrarily shaped clusters  
 - No need to pre-specify k  
 - Robust to noise/outliers  
-### Disadvantages:  
+#### Disadvantages:  
 - Sensitive to ε and minPts 
 - Struggles with varying densities  
 - Not effective in high-dimensional data
+
+
+## PCA
+- 'Helper' model
+- NOT Linear Regression
+	- PCA is unsupervised while Lin Reg is
+- Cannot use unless we can see that there is *some* correlation between some of the features
+	- ex: use a heatmap ![[Screenshot 2025-09-18 at 2.13.42 PM.png]]
+
+
+## Apriori Algorithm
+- **Support** - the ratio of the number of transactions in which item x appears to the total number of transactions
+- **Confidence** - the likelihood of the item y being purchased when item x is purchased. This method takes into account the popularity of item x
+- **Lift** - the likelihood of the item y being purchased when item x is sold. This method takes into account the popularity of item y
