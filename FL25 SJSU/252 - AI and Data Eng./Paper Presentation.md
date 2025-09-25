@@ -14,3 +14,7 @@ address Pros/Cons and extensions of paper
 try to find weaknesses of paper or improve methodology
 
 10 minutes presenting, 5 minutes Q&A
+
+options:
+- extend topic to a level where it could be publishable
+- let prof know asap if interested in publishing results
