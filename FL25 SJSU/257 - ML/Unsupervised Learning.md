@@ -8,10 +8,17 @@ Give the algorithm the ability to identify the patterns within the data
 
 ### Cons
 - Lack of guidance: Unsupervised learning lacks the guidance and feedback provided by labeled data, which can make it difficult to know whether the discovered patterns are relevant or useful,  
-- Sensitivity to data quality: Unsupervised learning can be sensitive to data quality,  including missing values, outliers, and noisy data,  
-- Scalability: Unsupervised learning can be computationally expensive, particularly for   large datasets or complex algorithms, which can limit its scalability.  
+- Sensitivity to data quality: Unsupervised learning can be sensitive to data quality, including missing values, outliers, and noisy data,  
+- Scalability: Unsupervised learning can be computationally expensive, particularly for large datasets or complex algorithms, which can limit its scalability.  
 
-
+## Types of UL
+- Clustering
+	- K-Means
+	- DBScan
+- Dimensionality Reduction
+	- PCA
+- Association Rules
+	- Apriori
 ## Clustering
 - Overlapping
 - Agglomerative
@@ -20,7 +27,7 @@ Give the algorithm the ability to identify the patterns within the data
 - Density-based
 	- similarly concentrated data points and separates from sparsely populated areas
 
-## DBSCAN
+### DBSCAN
 
 Chaining Rule:
 continue to chain as long as all data points are all in the radius
@@ -35,9 +42,9 @@ continue to chain as long as all data points are all in the radius
 - Struggles with varying densities  
 - Not effective in high-dimensional data
 
-
 ## PCA
 - 'Helper' model
+	- PCA never used by itself
 - NOT Linear Regression
 	- PCA is unsupervised while Lin Reg is
 - Cannot use unless we can see that there is *some* correlation between some of the features
@@ -46,5 +53,7 @@ continue to chain as long as all data points are all in the radius
 
 ## Apriori Algorithm
 - **Support** - the ratio of the number of transactions in which item x appears to the total number of transactions
+	- popularity of x
 - **Confidence** - the likelihood of the item y being purchased when item x is purchased. This method takes into account the popularity of item x
+
 - **Lift** - the likelihood of the item y being purchased when item x is sold. This method takes into account the popularity of item y

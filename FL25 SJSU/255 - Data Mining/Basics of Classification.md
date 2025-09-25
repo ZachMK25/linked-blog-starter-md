@@ -56,4 +56,10 @@ repeat until convergence
 - NAND gate
 - Multi Layer Perceptron
 	- DNN is MLP with many hidden layers
-- 
+
+## DERIVATION OF EULERS FORMULA
+
+## REVIEW 9/12 SLIDES
+
+## Sigmoid Function
+
