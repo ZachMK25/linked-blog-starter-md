@@ -18,7 +18,20 @@ Cons:
 	- ![[Screenshot 2025-09-25 at 1.59.24 PM.png]]
 	- optimal k?
 		- try a range and look for elbow
-- Support Vector Machines
+- Support Vector Machines (SVM)
+	- simply assigns binary classification
+		- can be linear or non-linear
+	- constraint is also its advantage
+		- can create a multi-class classifier by creating pairs of classifiers
+		- ex to get A,B,C, run AB, BC, AC
+			- layer results to get final classes
+			- ex:![[Drawing 2025-09-25 14.16.44.excalidraw]]
+		- **C - Parameter**
+			- margin of error for the borderline points
+			- ![[Screenshot 2025-09-25 at 2.19.35 PM.png]]
+			- low c --> low regularization --> underfitting
+			- high c --> high regularization --> overfitting
+	- 
 - Decision Trees
 	- Random Forest
 	- XGBoost
