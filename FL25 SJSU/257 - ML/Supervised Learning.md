@@ -33,11 +33,49 @@ Cons:
 			- low c --> low regularization --> underfitting
 			- high c --> high regularization --> overfitting
 	- 
-- Decision Trees
+- **Decision Trees**
+
+- continuously split by feature
+
 	- **Random Forest**
-		- 
+		- combining multiple trees
+		- **what makes it random?**
+			- organize and correlate features randomly
+			- **Out of Bag (OOB)**:
+				- no actual result came from it
+				- stops prior to leaf node
+				- refers to points not in training
+			- **Gini Index**:
+				- metric used within each tree to measure the quality of a potential split
+			![[Screenshot 2025-09-30 at 2.03.16 PM.png]]
+	- majority vote between the trees for final answer
+		- or average outputs in case of regression
+	- ```
+	  # Create RF classifier of 100 trees
+	  clf = RandomForestClassifier(n_estimators = 100)
+	  
+	  # Training the model on the data
+	  clf.fit(X_train, y_train.values.flatten())
+	  
+	  y_pred = clf.predict(X_test)
+	  
+	  ```
+	- ![[Screenshot 2025-09-30 at 2.09.07 PM.png]]
 	- **XGBoost**
+		- each tree is built on the previous tree
+		- use the error from the previous tree that is moved on to the next tree
+		- ![[Screenshot 2025-09-30 at 2.21.58 PM.png]]
 		- 
+$$
+T_1 = ax_1 + bx_2 + cx_3 + dx_4 + ex_5
+$$
+$$
+T_2 = ε_1(T_1)
+$$
+$$
+T_3 = ε_2(T_2)
+$$
+...
 
 ## KNN vs K-Means
 DIFF = HOW GROUPING HAPPENS
