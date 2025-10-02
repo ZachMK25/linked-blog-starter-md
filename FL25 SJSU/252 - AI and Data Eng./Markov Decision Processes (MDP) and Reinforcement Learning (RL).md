@@ -99,3 +99,8 @@ for each row:
 Choosing value for epsilon
 - balance of optimality and efficiency
 - can be closer to V\*(*s*) but takes more time to fill out table, v.v.
+
+
+#### Stationary vs. Non-stationary Policy
+- stationary: once everything is fixed, then running the iteration again and again will have the same policy
+- non-stationary: never get the chance to finalize everything, values are always changing
