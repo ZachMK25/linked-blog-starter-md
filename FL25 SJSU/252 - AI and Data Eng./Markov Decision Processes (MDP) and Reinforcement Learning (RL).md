@@ -95,3 +95,7 @@ for each row:
 			= sum of probs to get to each s' \* rewards of getting to each s'
 			= 70%*X + + ℽVi(s'x) + 15%*Y + + ℽVi(s'y) + 15%*Z + ℽVi(s'z)
 ```
+
+Choosing value for epsilon
+- balance of optimality and efficiency
+- can be closer to V\*(*s*) but takes more time to fill out table, v.v.
