@@ -67,4 +67,31 @@ Value Iteration
 		- for n nodes, need to check all neighbors for best cost
 			- INCOMING COST TO COME
 			- OUTGOING COST TO GO
+		- Propagating probabilities and expected values????
+		- see slides for exact formula
+		- set some threshold for being close enough to V\*(*s*)
 
+PSEUDOCODE:
+
+DP
+\# of options = \# of neighbors
+```
+for each row:
+	for each col:
+		for each option:
+			// BELLMAN EQ
+			V_{i+1}(S) = ?
+```
+
+
+MDP
+\# of options = set of actions
+```
+for each row:
+	for each col:
+		for each option:
+			// BELLMAN EQ
+			V_{i+1}(S,a) = ?
+			= sum of probs to get to each s' \* rewards of getting to each s'
+			= 70%*X + + ℽVi(s'x) + 15%*Y + + ℽVi(s'y) + 15%*Z + ℽVi(s'z)
+```
