@@ -75,7 +75,20 @@ $$
 $$
 T_3 = ε_2(T_2)
 $$
-...
+		...
+$$
+Output = Σ^n_{i=1} C
+$$
+		Pros:
+		- High accuracy on structured/tabular data  
+		- Regularization reduces fitting issues  
+		- Handles missing values natively  
+		- Fast and scalable
+		
+		Cons:
+		- Complex hyperparameter tuning  
+		- Slower training (compared to Random Forest)  
+		- Risk of overfitting if poorly tuned
 
 ## KNN vs K-Means
 DIFF = HOW GROUPING HAPPENS
