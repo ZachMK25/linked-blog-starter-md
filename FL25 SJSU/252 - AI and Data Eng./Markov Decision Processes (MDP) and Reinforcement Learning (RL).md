@@ -34,7 +34,7 @@ Goal: Find a policy (i.e., mapping from states to actions that give a plan for t
 Objective Functions
 - in general, maximize sum of rewards collected
 
-Discounted Reward
+#### Discounted Reward
 maximize
 $$
 Σ^∞_{t=0}ℽ^tR(s_t,a_t,s_{t+1})
@@ -45,7 +45,7 @@ gamma is discount factor
 - models the fact that immediate reward is better than far out reward
 - ensures that the sum of rewards is always finite
 
-Expected value
+#### Expected value
 - cannot get full value of reward bc of probability
 - ex: 70% to move North to position (0,2) with reward X
 	- --> 0.7\*X
