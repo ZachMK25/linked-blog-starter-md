@@ -50,12 +50,12 @@ gamma is discount factor
 - ex: 70% to move North to position (0,2) with reward X
 	- --> 0.7\*X
 
-Value Function
+#### Value Function
 - V\*(*s*) is the optimal (discounted) reward-to-go
 - that is, if you follow the optimal policy starting from a state *s*, til you reach the goal state *s_g*, you will collect (in expectation) a reward to V\*(*s*) 
 - Computing V\*(*s*) is not as simple
 
-Value Iteration
+#### Value Iteration
 -  V_i(*s*): estimate of V\*(*s*) in the *i*th iteration
 - we will start with  V_0(*s*) = 0 for all *s*
 - in each iteration, improve our estimate
