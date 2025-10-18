@@ -13,10 +13,10 @@ Paper Presentation
 	- summarize in own words
 	- what do YOU think the key ideas are, what is the main contribution, what are the limitations
 - groups by WEEK OF 9/7!
-	- keep groups for final proj
+	- keep groups for final project
 - OVERLEAF OR LATEX
 
-Final Proj
+Final Project
 - OPEN SOURCE DATASETS for project
 - ex: can be simple data science project analyzing healthcare data, etc.
 	- can also do NLP or other more complex topics
@@ -31,3 +31,6 @@ Final Proj
 	- asks some fundamental questions about topics covered in class
 	- learn the FUNDAMENTAL concepts of course
 		- ex: no proofs on exam
+
+Project Presentation and Oral Exam WEEK AFTER THANKSGIVING
+Project Report due ~10 days after Presentation/Exam

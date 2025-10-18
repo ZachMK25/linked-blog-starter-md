@@ -23,3 +23,18 @@ grouping/partitioning/segmentation
 3. partition the graph
 4. keep going until cost value converges(?)
 5. REVIEW LECTURE RECORDiNG
+
+### Auto Encoder (AE)
+Encoder f_θ and Decoder d_ϕ
+
+![[Drawing 2025-10-17 18.26.17.excalidraw]]
+
+Neural Network that learns an _Identity Function_
+
+Uses: Dimensionality reduction
+
+### Variational Auto Encoder
+
+
+### Self-Supervised Clustering
+
