@@ -69,5 +69,9 @@ constraint on the **latent space: needs to be IID**
 ![[image.png|279x210]]
 
 loss function = |x - x-cap|^2 + KL(P(Z) || N(0,1))
+
+KL loss is to enforce IID constraint on Latent Space
+
+**COMMON QUESTION ON EXAM**
 ### Self-Supervised Clustering
 
