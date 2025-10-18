@@ -72,8 +72,14 @@ loss function = |x - x-cap|^2 + KL(P(Z) || N(0,1))
 
 KL loss is to enforce IID constraint on Latent Space
 
-**COMMON QUESTION ON EXAM**
+#### **COMMON QUESTION ON EXAM**
 
-Want to convert EEG --> Text
+Want to convert EEG (dimension of 10 features/channels) --> Text
+
+identify top 5 sensors that I can use to convert results to text
+
+Use VAE
+
+
 ### Self-Supervised Clustering
 
