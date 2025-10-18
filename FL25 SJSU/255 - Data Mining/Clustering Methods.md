@@ -33,6 +33,33 @@ Neural Network that learns an _Identity Function_
 
 Uses: Dimensionality reduction
 
+ex: input = (100, T, 10)
+
+use RNN or LSTM with 128 neurons --> (100, T, 128)
+
+FCN output at given timestep only depends on input
+
+RNN or LSTM at given timestep depends on input and previous output
+- concept of *memory/latch*
+- Can take **last timestep** output and say that its a summary of *all previous timestep outputs*
+
+TD = Time Distributed Dense Layer
+
+![[IMG_7986.heic]]
+
+
+#### Background: Analog to Digital
+- sampling - look at the values at discrete time slots
+	- sampling frequency determines the rate at which the time value is being updated
+- also need to discretize the y axis (amplitude)
+	- quantization
+
+Ex: 2 seconds, 16KHz
+32K points
+
+Ex: Brainscan with 1 subject, 5 seconds, 1000Hz sampling rate, 31 sensors
+(1, 5000, 31)
+
 ### Variational Auto Encoder
 
 
