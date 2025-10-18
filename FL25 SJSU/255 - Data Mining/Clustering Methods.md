@@ -5,13 +5,11 @@ grouping/partitioning/segmentation
 2. looks at distribution of data
 3. naive
 ### k-means clustering
-1. extract features
-	1. motion vectors, rgb values, etc.
-2. consider n feature vectors f1, f2, ..., fn
-3. consider k segments
-4. need to have centroids converge to get final groups
+1. choose k
+2. create k random centroids
+3. need to have centroids converge to get final groups
 	1. can sample from dataset to get better starting points for centroids rather than random points
-5. how to choose k?
+4. how to choose k?
 	1. elbow method?
 ### mean-shift clustering
 1. computationally expensive
@@ -59,6 +57,9 @@ Ex: 2 seconds, 16KHz
 
 Ex: Brainscan with 1 subject, 5 seconds, 1000Hz sampling rate, 31 sensors
 (1, 5000, 31)
+
+
+#### How can we use this for K-Means Clustering?
 
 ### Variational Auto Encoder
 
