@@ -55,7 +55,7 @@ TD = Time Distributed Dense Layer
 Ex: 2 seconds, 16KHz
 32K points
 
-Ex: Brainscan with 1 subject, 5 seconds, 1000Hz sampling rate, 31 sensors
+Ex: EEG Brainscan with 1 subject, 5 seconds, 1000Hz sampling rate, 31 sensors
 (1, 5000, 31)
 
 #### How can we use this for K-Means Clustering?
@@ -73,5 +73,7 @@ loss function = |x - x-cap|^2 + KL(P(Z) || N(0,1))
 KL loss is to enforce IID constraint on Latent Space
 
 **COMMON QUESTION ON EXAM**
+
+Want to convert EEG --> Text
 ### Self-Supervised Clustering
 
