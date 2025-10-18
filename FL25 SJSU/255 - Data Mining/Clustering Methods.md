@@ -58,10 +58,16 @@ Ex: 2 seconds, 16KHz
 Ex: Brainscan with 1 subject, 5 seconds, 1000Hz sampling rate, 31 sensors
 (1, 5000, 31)
 
-
 #### How can we use this for K-Means Clustering?
 
+can reduce the number of dimensions (use latent space from AE)
+
 ### Variational Auto Encoder
+constraint on the latent space: needs to be IID
+- IID = Independent and Identically Distributed random variables
+> if each random variable has the same [probability distribution](https://en.wikipedia.org/wiki/Probability_distribution "Probability distribution") as the others and all are mutually [independent](https://en.wikipedia.org/wiki/Independence_\(probability_theory\) "Independence (probability theory)").
+![[image.png|279x210]]
+
 
 
 ### Self-Supervised Clustering
