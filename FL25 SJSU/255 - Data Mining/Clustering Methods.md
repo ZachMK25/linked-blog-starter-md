@@ -80,7 +80,17 @@ identify top 5 sensors that I can use to convert results to text
 
 Use VAE
 
+![[Drawing 2025-10-17 19.39.05.excalidraw]]
 
+Pass data to mindreader, minimizing the loss from training the mindreader. That gives us the 5 most significant sensors for predicting text. Once the total loss converges, that means that we have the correct features.
 
 ### Self-Supervised Clustering
 
+1. X --> Features of X using NN (Xf)
+
+	Ex: Image
+	- extract features from image using pretrained CNN
+
+2. Use K-Means on Xf --> derive cluster labels
+3. Use cluster labels from (2) as pseudo-labels and fine-tune and retrain network used in (1)
+4. repeat until A) k-means produces consistent outputs and/or B) loss converges

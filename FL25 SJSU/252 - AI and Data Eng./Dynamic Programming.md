@@ -1,4 +1,4 @@
-
+ 
 Suppose that the optimal path from a to e goes through b
 Jab = cost of going a to b
 Jbe = cost going b to e
